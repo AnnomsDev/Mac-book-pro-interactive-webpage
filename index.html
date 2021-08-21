@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mac Book Pro</title>
+</head>
+
+<body>
+    <main>
+        <section class="product-containner">
+            <div class="product">
+                <!-- grid -->
+                <img src="images/mac.png" alt="Mac book Pro image">
+                <div class="product-details">
+                    <h1>Customize your Blue 24-inch iMac with Apple M1 chip</h1>
+                    <p>Apple M1 chip with 8-core CPU with 4 performance core and 4 efficiency core, 7-core GPU, and 16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt/ USB 4 ports Magic Mouse Keyboard - US English</p>
+                    <!-- memory  -->
+                    <div class="component-containner">
+                        <p><b>Memory</b></p>
+                        <button id="btn-memory-8gb" class="component-btn">8GB unified memory</button>
+                        <button id="btn-memory-16gb" class="component-btn">16GB unified memory</button>
+                    </div>
+                    <!-- storage -->
+                    <div class="component-containner">
+                        <p><b>storage</b></p>
+                        <button id="btn-storage-256gb" class="component-btn">256GB SSD storage</button>
+                        <button id="btn-storage-512gb" class="component-btn">512GB SSD storage</button>
+                        <button id="btn-storage-1tb" class="component-btn">1TB SSD storage</button>
+                    </div>
+                    <!-- delivery option -->
+                    <div class="component-containner">
+                        <p><b>Choose your delivery option</b></p>
+                        <button id="btn-aug-25" class="component-btn">Friday, Aug 25 FREE Prime Delivery</button>
+                        <button id="btn-aug-21" class="component-btn">Friday, Aug 21 Delivery charge $20</button>
+                    </div>
+
+                    <!-- price and cost section -->
+                    <div id="price-containner">
+                        <p><span>Best Price</span>$<span>1299</span></p> 
+                        <p><span>Extra Memory Cost</span>$<span id="memory-cost">0</span></p> 
+                        <p><span>Extra Storage Cost</span>$<span id="storage-cost">0</span></p> 
+                        <p class="border-bold"><span>Delivery charge</span>$<span id="delivery-cost">0</span></p> 
+                        <p><span>Total Price</span>$<span id="total-price">1299</span></p> 
+                    </div>
+                    <!-- promo code -->
+                    <div id="promo">
+                        <p>Add Promo code</p>
+                        <input id="input-promo" type="text">
+                        <button id="apply-promo">Apply</button>
+                        <p id="alart-text"></p> 
+                    </div>
+
+                </div>
+            </div>
+            <div class="total">
+                <p>Total: $<span id="total">1299</span></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Js script -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
